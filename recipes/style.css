@@ -1,0 +1,44 @@
+html 
+{box-sizing: border-box;}
+
+*:before, *:after {
+box-sizing: inherit;
+}
+
+
+img {
+    border: 2px solid darkolivegreen; 
+}
+
+.title {
+    background-color: aqua;
+    color: blueviolet;
+    max-width: fit-content;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+  text-decoration: none !important;
+}   
+button:visited {
+    text-decoration: none !important;
+}
+
+.main-list {
+    font-size: 40px;
+}
+
+/* recipes pages start */
+
+.steps li {
+  margin-top: 10px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  font-size: large;
+  font-weight: bold;
+  background-color: skyblue;
+  color: black;
+  margin-left: 20px;
+}
