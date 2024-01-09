@@ -110,12 +110,13 @@ button {
     height: 60%;
     background-color: dodgerblue;
     display: flex;
-    width: 60%;
+    min-width: 800px;
     align-items: center;
     padding: auto;
     justify-content: space-evenly;
     color: white;
     border-radius: 10px;
+  
 }
 
 
