@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+  .header {
+    height: 30em;
+    background-color: #1f2937;
+    color: white;
+    
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 50px;
+   
+  }
+
+  .navbar div {
+    flex-shrink: 0;
+  }
+
+ .logo {
+    font-size: 32px;
+    font-weight: bold;
+ }
+
+  .right-header {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+  }
+
+.head-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.head-section div {
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.right-section {
+    margin-left: 100px;
+}
+
+.right-section img {
+    border-radius: 10px;
+    border: none;
+}
+
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+}
+
+.information {
+    height: 20em;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.information p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ .information img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: solid 3px skyblue;
+}
+
+.quotation-box {
+    height: 18em;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.bluebox {
+    height: 60%;
+    background-color: dodgerblue;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding: auto;
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.quotation-box p {
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.signup-box {
+    display: flex;
+    height: 13em;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltext p, h4 {
+    margin: 5px;
+}
+
+.lowbutton {
+    border-radius: 5px;
+    border: solid #e5e7eb 2px;
+    width: max-content;
+}
+
+footer {
+    height: 7em;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
